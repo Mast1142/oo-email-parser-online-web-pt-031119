@@ -11,7 +11,7 @@ class EmailParser
     @data = data
   end
 
-  def parse(data)
+  def parse
     emails = data.split(", ") #splits the csv string data to arrays
     #binding.pry
   end
