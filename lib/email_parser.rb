@@ -9,7 +9,7 @@ class EmailParser
 
   def self.new(csv)
     emails = csv.split(", ")
-    binding.pry
+    #binding.pry
   end
 
 end
