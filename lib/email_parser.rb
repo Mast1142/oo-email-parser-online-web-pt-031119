@@ -5,14 +5,11 @@
 require "pry"
 
 class EmailParser
-  attr_accessor :data
-
-  def initialize(data)
-    self.new
-  end
+  attr_accessor
 
   def self.parse(csv)
-    emails = csv.split(", ")
+    emails = self.new(csv)
+    email_splt = emails.split(", ")
     #binding.pry
   end
 
