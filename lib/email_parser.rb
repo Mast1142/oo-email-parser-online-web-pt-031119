@@ -7,5 +7,8 @@ require "pry"
 class EmailParser
   attr_accessor
 
+  def self.new(csv)
+    emails = csv.split(", ")
+  end
 
 end
