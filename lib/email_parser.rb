@@ -7,9 +7,12 @@ require "pry"
 class EmailParser
   attr_accessor
 
+  def initialized
+    self.new
+  end
+  
   def self.parse(csv)
-    emails = self.new(csv)
-    email_splt = emails.split(", ")
+    emails = csv.split(", ") #splits the csv string data to arrays
     #binding.pry
   end
 
