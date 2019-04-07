@@ -8,7 +8,6 @@ class EmailParser
   attr_accessor
 
   def self.parse(csv)
-    self.new(csv)
     emails = csv.split(", ")
     #binding.pry
   end
