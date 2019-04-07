@@ -7,8 +7,8 @@ require "pry"
 class EmailParser
   attr_accessor :data
 
-  def initialized
-    self.new
+  def initialize(data)
+    @data = data
   end
 
   def self.parse(csv)
