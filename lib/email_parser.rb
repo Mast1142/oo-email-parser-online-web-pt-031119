@@ -10,7 +10,7 @@ class EmailParser
   def initialized
     self.new
   end
-  
+
   def self.parse(csv)
     emails = csv.split(", ") #splits the csv string data to arrays
     #binding.pry
