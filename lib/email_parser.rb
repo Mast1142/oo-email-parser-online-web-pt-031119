@@ -5,7 +5,7 @@
 require "pry"
 
 class EmailParser
-  attr_accessor
+  attr_accessor :data
 
   def initialized
     self.new
